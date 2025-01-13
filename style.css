@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container img { 
+  height:300px;
+  width:200px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: blueviolet;
+}  
+.Clickable {
+font-family: 'Lobster', cursive;
+color: red;
+font-size: 20px;
+text-align:center;
+cursor:pointer;
+}
